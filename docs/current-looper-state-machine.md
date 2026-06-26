@@ -9,6 +9,7 @@ Short reference for the current TouchOSC looper logic in [root.lua](C:/Users/XMG
 - One buffer length is active at a time.
 - Track `1` uses its own bass scene selector.
 - Tracks `2` and `3` share the main scene selector.
+- The implemented looper is currently considered buggy and not yet stable.
 
 ## MIDI Output
 
@@ -183,3 +184,8 @@ If selected clip is not free:
 - Bar buttons:
   - active = mellow yellow
   - inactive = darker gray-yellow
+
+## Current Priority
+
+- The top priority after handover is looper bug-fixing and stabilization.
+- New feature work should be secondary until the current looper behavior is reliable.

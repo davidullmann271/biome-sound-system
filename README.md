@@ -15,6 +15,8 @@ The current scripted controller logic lives in [root.lua](C:/Users/XMG/Documents
   Root TouchOSC state machine.
 - [scripts/transport_button.lua](C:/Users/XMG/Documents/touchOSC%20intelligent%20controller%20for%20ableton/scripts/transport_button.lua)
   Transport button notify script.
+- [scripts/fake_button_box_midi_ramp.lua](C:/Users/XMG/Documents/touchOSC%20intelligent%20controller%20for%20ableton/scripts/fake_button_box_midi_ramp.lua)
+  Scripted Box/container that behaves like a button but emits a fast continuous MIDI ramp.
 - [scripts/looper](C:/Users/XMG/Documents/touchOSC%20intelligent%20controller%20for%20ableton/scripts/looper)
   Scene, bass scene, track, mode, and bar selector button scripts.
 - [scripts/events/event_drop_kick.lua](C:/Users/XMG/Documents/touchOSC%20intelligent%20controller%20for%20ableton/scripts/events/event_drop_kick.lua)
@@ -42,6 +44,12 @@ The current scripted controller logic lives in [root.lua](C:/Users/XMG/Documents
 - Scene and mode changes are adopted by the running state machine at scheduled boundaries.
 - Scene play triggers are one-shot launches, not continuous retriggers.
 - While stopped, mode is forced back to `play`, and `freeze` / `store` are locked.
+
+## Current Project Status
+
+- The looper is currently buggy in real use.
+- A `looper bugfixing` folder exists in the project workflow for bug investigation media and notes.
+- After handover, the number one priority should be looper bug-fixing and stabilization before expanding functionality further.
 
 ## Buffer CC Families
 

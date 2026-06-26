@@ -4,6 +4,7 @@
 
 - Root script: [root.lua](C:/Users/XMG/Documents/touchOSC%20intelligent%20controller%20for%20ableton/scripts/root.lua)
 - Transport button script: [transport_button.lua](C:/Users/XMG/Documents/touchOSC%20intelligent%20controller%20for%20ableton/scripts/transport_button.lua)
+- Fake continuous button script: [fake_button_box_midi_ramp.lua](C:/Users/XMG/Documents/touchOSC%20intelligent%20controller%20for%20ableton/scripts/fake_button_box_midi_ramp.lua)
 - Event button script: [event_drop_kick.lua](C:/Users/XMG/Documents/touchOSC%20intelligent%20controller%20for%20ableton/scripts/events/event_drop_kick.lua)
 - Looper button scripts:
   - [scene_button.lua](C:/Users/XMG/Documents/touchOSC%20intelligent%20controller%20for%20ableton/scripts/looper/scene_button.lua)
